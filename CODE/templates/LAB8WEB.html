@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Raspberry Pi Remote Light Status</title>
+</head>
+<body>
+    <h1>Raspberry Pi Remote Light Control</h1>
+    <h2>Light Status: {{ status }}</h2>
+    <p>Last Seen: {{ time }}</p>
+    <form action="/" method="post">
+        <input type="submit" value="Toggle Light Status">
+    </form>
+</body>
+</html>
