@@ -1,2 +1,2 @@
 # IOT
-IOT Lab programs
+IoT Lab programs
